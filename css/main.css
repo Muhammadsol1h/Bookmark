@@ -933,7 +933,23 @@
     border-radius: 5px;
 }
 
+.download__wrap__box__link:hover {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #5267DF;
+    background-color: white;
+    border: 2px solid #5267DF;
+    box-shadow: 0px 8px 8px -4px #495DCF33;
+}
+
 @media(max-width:1102px) {
+    .download {
+        margin-bottom: 100px;
+    }
+
     .download__grid {
         margin-left: auto;
         margin-right: auto;
@@ -966,4 +982,224 @@
     .download__wrap__box_two {
         margin-top: 0px;
     }
+}
+
+/*  =================================== frequently ================================== */
+
+.frequently {
+    margin-bottom: 150px;
+}
+
+.frequently__container {
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.frequently__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: #242A45;
+    margin-bottom: 16px;
+}
+
+.frequently__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #242A45;
+    opacity: 50%;
+    margin-bottom: 56px;
+    max-width: 540px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frequently__line {
+    background-color: #242A45;
+    max-width: 540px;
+    opacity: 14.77%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+.frequently__btn {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #242A45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    border: none;
+}
+
+.frequently__btn__hover {
+    color: #FA5959;
+}
+
+.frequently__btn img {
+    display: flex;
+}
+
+.frequently__hidden {
+    display: none;
+}
+
+.frequently__box {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frequently__hidden__top {
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+.frequently__hidden__top__btn {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #242A45;
+    background: none;
+    border: none;
+}
+
+.frequently__hidden__top__btn img {
+    display: flex;
+}
+
+.frequently__hidden__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.15000000596046448px;
+    opacity: 75%;
+    color: #242A45;
+}
+
+.frequently__link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: white;
+    padding: 10px 24px 10px 24px;
+    background: #5267DF;
+    box-shadow: 0px 8px 8px -4px #495DCF33;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 114px;
+    margin-top: 54px;
+}
+
+@media(max-width:580px) {
+    .frequently__text {
+        max-width: 400px;
+    }
+
+    .frequently__line {
+        max-width: 400px;
+    }
+
+    .frequently__btn {
+        width: 400px;
+    }
+
+    .frequently__box {
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .frequently__hidden__top__btn {
+        width: 400px;
+    }
+}
+
+@media(max-width:443px) {
+    .frequently__text {
+        max-width: 300px;
+    }
+
+    .frequently__line {
+        max-width: 300px;
+    }
+
+    .frequently__btn {
+        width: 300px;
+        gap: 30px;
+        text-align: left;
+    }
+
+    .frequently__box {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .frequently__hidden__top__btn {
+        width: 300px;
+    }
+}
+
+@media(max-width:375px) {
+    .frequently__title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.07500000298023224px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .frequently__text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .frequently__line__active{
+        display: none;
+    }
+    .frequently__line {
+        max-width: 280px;
+    }
+
+    .frequently__btn {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        gap: 30px;
+        width: 270px;
+    }
+
 }
