@@ -6,7 +6,7 @@ let heroCart = document.querySelector('.hero__cart')
 headerMenu.addEventListener('click', function () {
     headerRes.classList.add('active');
     heroCart.classList.add('activeBanner')
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';a
 });
 
 headerResClose.addEventListener('click', function () {
