@@ -149,16 +149,16 @@
 
 .header__res__item__top {
     border-top: 1px solid rgba(156, 156, 156, 0.5);
-    padding-top: 24px;
+    padding-top: 20px;
 }
 
 .header__res__item__center {
     border-top: 1px solid rgba(156, 156, 156, 0.5);
-    padding-top: 24px;
+    padding-top: 20px;
 }
 .header__res__item__bottom{
     border-top: 1px solid rgba(156, 156, 156, 0.5);
-    padding-top: 24px;
+    padding-top: 20px;
     padding-bottom: 24px;
     border-bottom: 1px solid rgba(156, 156, 156, 0.5);
 }
