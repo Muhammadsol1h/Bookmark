@@ -834,7 +834,7 @@
     text-align: center;
 }
 
-.features__cart__text br{
+.features__cart__text br {
     display: block;
 }
 
@@ -849,9 +849,6 @@
     box-shadow: 0px 8px 8px -4px #495DCF33;
     text-decoration: none;
     border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 @media(max-width:1010px) {
@@ -888,6 +885,14 @@
     }
 }
 
+@media(max-width:615px) {
+    .features__cart__banner {
+        margin-bottom: 20px;
+        margin-left: -100px;
+        width: 550px;
+    }
+}
+
 @media(max-width:580px) {
     .features__cart__banner {
         margin-bottom: 20px;
@@ -905,6 +910,21 @@
 }
 
 @media(max-width:484px) {
+    .features__cart__title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features__cart__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
     .features__cart__banner {
         margin-bottom: 20px;
         margin-left: -100px;
@@ -917,21 +937,48 @@
         width: 400px;
     }
 
+
     .features__cart__title {
         font-size: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .features__cart__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         font-size: 15px;
         font-weight: 400;
         line-height: 25px;
         text-align: center;
         width: 250px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .features__cart__text br{
+    .features__cart__text br {
         display: none;
     }
+    .features__cart__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.speedyCart {
+    display: none;
+}
+
+.easyCart {
+    display: none;
 }
 
 /* ==================================== download =============================================== */
