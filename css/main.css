@@ -475,7 +475,7 @@
     }
 
     .hero__box {
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     .hero__cart__banner {
@@ -492,7 +492,7 @@
 
 @media(max-width:426px) {
     .hero__box {
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     .hero__title {
@@ -526,7 +526,7 @@
 
 @media(max-width:380px) {
     .hero__box {
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     .hero__title {
@@ -568,7 +568,7 @@
 
 @media(max-width:360px) {
     .hero__box {
-        padding-top: 60px;
+        padding-top: 10px;
     }
 
     .hero__cart__banner {
