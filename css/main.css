@@ -567,9 +567,9 @@
 }
 
 @media(max-width:360px) {
-    /* .hero__box {
-        padding-top: 160px;
-    } */
+    .hero__box {
+        padding-top: 60px;
+    }
 
     .hero__cart__banner {
         width: 320px;
